@@ -99,7 +99,9 @@ the pitch.
 {% endif %}
 
 {% if site.pilot %}
-This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
+This is a hands-on introduction to the first steps in deep learning, intended for students and researchers who are familiar with… 
+* machine learning, including data cleaning, train & test splits, type of problems (regression, classification), overfitting & underfitting, metrics (accuracy, recall, etc.)
+* python programming, including the Pandas package
 {% endif %}
 
 {% comment %}
@@ -176,7 +178,6 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
