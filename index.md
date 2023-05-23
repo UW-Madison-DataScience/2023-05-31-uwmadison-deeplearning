@@ -445,7 +445,6 @@ during the workshop.
 {% elsif site.carpentry == "incubator" %}
 
 <h3>Obtain software and data</h3>
-Please check the "Setup" page of
-[the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+Please check the [Setup page page](https://carpentries-incubator.github.io/deep-learning-intro/setup/) of 
+the lesson site for instructions on how to obtain the software and data you will need to follow the lesson.
 {% endif %}
