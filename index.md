@@ -398,24 +398,6 @@ please preview your site before committing, and make sure to run
 
 <h2 id="setup">Setup</h2>
 
-{% comment %}
-These are the installation instructions for the tools used
-during the workshop.
-{% endcomment %}
-
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% elsif site.carpentry == "incubator" %}
-
-<h3>Obtain software and data</h3>
-Please check the [Setup page](https://carpentries-incubator.github.io/deep-learning-intro/setup/) of 
-the lesson site for instructions on how to obtain the software and data you will need to follow the lesson.
-{% endif %}
-
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -434,6 +416,24 @@ the lesson site for instructions on how to obtain the software and data you will
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+{% comment %}
+These are the installation instructions for the tools used
+during the workshop.
+{% endcomment %}
+
+{% if site.carpentry == "swc" %}
+{% include swc/setup.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/setup.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/setup.html %}
+{% elsif site.carpentry == "incubator" %}
+
+<h3>Obtain software and data</h3>
+Please check the [Setup page](https://carpentries-incubator.github.io/deep-learning-intro/setup/) of 
+the lesson site for instructions on how to obtain the software and data you will need to follow the lesson.
+{% endif %}
 
 {% comment %}
 For online workshops, the section below provides:
